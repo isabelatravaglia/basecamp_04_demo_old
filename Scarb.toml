@@ -1,0 +1,13 @@
+[package]
+name = "workspace"
+version = "0.1.0"
+description = "Workshop to learn the basics of testing a contract."
+homepage = ""
+
+[dependencies]
+
+[scripts]
+test = "cairo-test --path src/ERC20.cairo --starknet"
+test_single= "cairo-test --path src/ERC20.cairo --starknet -f"
+
+[[target.starknet-contract]]

@@ -1,0 +1,3 @@
+[crate_roots]
+workspace = "src"
+tests = "tests"
